@@ -42,7 +42,7 @@ const Submit = () => {
             />
           </svg>
         </div>
-        <div className="textMain relative left-1/2 top-20 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center leading-none gap-2 w-[30vw]">
+        <div className="textMain relative left-1/2 top-20 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center leading-none gap-2 w-[34vw]">
           <h1 className="text-2xl font-briem text-green-600 font-medium">
             success submited
           </h1>

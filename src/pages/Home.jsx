@@ -10,7 +10,7 @@ const Home = () => {
       <Navbar iconEnabled={"true"}/>
       <div className="w-full h-full">
         <div className="landingPage h-full w-full flex flex-col relative top-[10vh]">
-          <div className="textMain relative left-1/2 top-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center leading-none gap-2 w-[30vw]">
+          <div className="textMain relative left-1/2 top-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center leading-none gap-2 w-[34vw]">
             <h1 className="text-2xl font-briem text-green-600 font-medium">
               success stories
             </h1>
@@ -110,7 +110,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="secoundSec h-full w-1/2 flex flex-col items-start justify-around px-28 py-20">
+            <div className="secoundSec h-full w-1/2 flex flex-col items-start justify-around px-28 pt-20 pb-0">
               <h1 className="w-3/4 text-[2.5rem] font-Manrope leading-[3rem] font-medium">
                 Enhance fortune 50 company&apos;s insights teams research
                 capabilities

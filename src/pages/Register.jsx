@@ -21,7 +21,7 @@ const Register = () => {
     <div className="h-screen w-full relative">
       <Navbar iconEnabled={"false"} />
       <div className="registerForm px-10 pt-20 absolute h-3/4 w-1/3 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col">
-        <div className="textMain relative left-1/2 top-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center leading-none gap-2 w-[30vw]">
+        <div className="textMain relative left-1/2 top-10 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center leading-none gap-2 w-[34vw]">
           <h1 className="text-2xl font-briem text-green-600 font-medium">
             registration form
           </h1>
