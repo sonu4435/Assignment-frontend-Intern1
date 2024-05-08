@@ -1,13 +1,48 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+:root{
+  --primary_button: #000;
+  --primaryHover_button: #454545;
+  --secondary_button: #fff;
+  --secondaryHover_button: #f1f1f1;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar{
+  width: 7px;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb{
+  width: 7px;
+  background: #2d0c0c;
+  border-radius: 50px;
+}
+.font-briem{
+  font-family: 'Briem Hand', cursive;
+}
+.font-Manrope{
+  font-family: "Manrope", sans-serif;
+}
+body{
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.btn{
+  transition: .3s ease-in-out;
+}
+.btn:hover{
+  background: var(--primaryHover_button);
+}
+.btn2{
+  transition: .3s ease-in-out;
+}
+.btn2:hover{
+  background: var(--secondaryHover_button);
 }
